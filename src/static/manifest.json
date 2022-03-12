@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "XPath Organizer",
+    "description": "Chrome extension to organize xpath for selenium use",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Xpath Organizer",
+        "default_icon": "icon.png"
+    },
+    "options_page": "options.html"
+}

@@ -4,5 +4,20 @@
   "description": "xpath organizer for selenium",
   "main": "index.js",
   "author": "Takuya Shinozaki",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "webpack --watch --progress --config webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
