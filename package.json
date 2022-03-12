@@ -1,0 +1,8 @@
+{
+  "name": "xpath-organizer",
+  "version": "1.0.0",
+  "description": "xpath organizer for selenium",
+  "main": "index.js",
+  "author": "Takuya Shinozaki",
+  "license": "UNLICENSED"
+}
