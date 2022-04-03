@@ -25,5 +25,14 @@
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.2",
+    "@types/gapi": "^0.0.41",
+    "fontsource-roboto": "^4.0.0",
+    "gapi": "^0.0.3",
+    "googleapis": "39"
   }
 }

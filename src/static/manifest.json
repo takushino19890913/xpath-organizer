@@ -17,6 +17,10 @@
     "background": {
         "service_worker": "background.js"
     },
+    "permissions": [
+        "storage","contextMenus","tabs","storage"
+    ],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArwO88Lw3NyvDJSdhJuymABCmzLfYBaysmUyy/Wx1mhnXYSjosFldSSUAGu9H+C6zTdVRZ3efvBvH8FXBuZNtLqUjCT/I5NhumI8hbaG9SAdvOyU5ETrPFjKygb4xlaEZhUo0D9gQEl+AXabjmrHr6BNgCSmLNaBljfOsjlwcc9pP6SaKxsJVv6icfoYHPG5BB9ykj8zkd2BZrIWYwRKwWX5t+pcZcbmneWU4QxTJWpPqDJqPM0P2GSK/a5vwS1QjhW/odyVHDySU2F4O6WngUZ0FLHl9BW9FTrCASHKHUmjHNv8TfP9sx4Y4Vfg+gGYUdWbZYnILOTOP1pIlUs1ypwIDAQAB",
     "content_scripts": [
         {
             "matches": ["<all_urls>"],

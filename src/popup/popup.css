@@ -1,5 +1,26 @@
 body {
     width: 400px;
     height: 400px;
-    background-color: red;
+}
+
+#popUpDiv{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    overflow:scroll;
+}
+#container{
+    width: 80%;
+}
+
+#projectActionBox{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#createNewButton{
+    width: 100%;
 }
